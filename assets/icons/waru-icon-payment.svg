@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Payment</title>
+  <g fill="none" stroke="#17191d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5">
+    <path d="M18 10h27l7 7v37H18z"/>
+    <path d="M45 10v8h7" stroke="#ffc629"/>
+    <path d="M25 29h20M25 37h20M25 45h12"/>
+  </g>
+  <path d="M29 21v7M25 24.5h8" fill="none" stroke="#ffc629" stroke-linecap="round" stroke-width="3"/>
+</svg>

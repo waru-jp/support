@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Waru mark</title>
+  <g fill="none" stroke="#ffc629" stroke-linecap="round" stroke-width="5">
+    <path d="M19 10v7"/>
+    <path d="m29 7-3 7"/>
+    <path d="m39 10-5 6"/>
+  </g>
+  <path fill="#17191d" d="M8.2 20.1c-1.4-4.6 5.3-7 7-2.3l7.5 20.9 7.1-13.9c1.9-3.7 7.1-3.7 9 0l4.1 8 5.7-17.3c1.6-4.8 8.9-2.8 7.4 2l-9.7 31.2c-1.2 4-6.7 4.6-8.5.9l-7.9-15.4-8.1 15.5c-1.9 3.7-7.4 3-8.5-.9z"/>
+  <path fill="#ffc629" d="m34.6 27.4 4.2 8.1 5.8-17.4c1.6-4.8 8.9-2.8 7.4 2l-7.1 22.9c-1.2 3.9-6.6 4.5-8.5.8l-7.4-14.4 1.6-3.1c.9-1.8 3.1-1.8 4 0z"/>
+</svg>
