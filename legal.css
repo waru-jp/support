@@ -1,0 +1,6 @@
+.legal { max-width:760px; padding:80px 0 120px; }.legal h1 { font-size:clamp(38px,6vw,64px); margin-bottom:14px; }.legal .updated { color:#85868a; font:12px 'DM Mono',monospace; }.legal h2 { font-size:25px; margin:48px 0 12px; }.legal p,.legal li { color:#62656a; font-size:15px; }.legal ul { padding-left:1.4em; }.legal .legal-back { display:inline-block; margin-top:35px; color:#8b6b00; font-weight:700; }.legal-callout { padding:20px 24px; border-radius:18px; background:var(--cream); }
+.share-fallback { max-width:620px; min-height:70vh; display:grid; align-content:center; gap:20px; }
+.share-fallback h1, .share-fallback p { max-width:560px; }
+.share-fallback .legal-back { margin-top:0; }
+.share-fallback .button { justify-self:start; }
+.share-fallback .muted { color:#707783; font-size:.9rem; }

@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["__APPLE_TEAM_ID__.__WARU_BUNDLE_ID__"],
+        "components": [
+          { "/": "/g/*", "comment": "Waru share links" }
+        ]
+      }
+    ]
+  }
+}

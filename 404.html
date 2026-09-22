@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Waruの共有リンク</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/legal.css" />
+  </head>
+  <body>
+    <main class="legal shell share-fallback">
+      <a class="legal-back" href="/">← Waruのサイトへ戻る</a>
+      <p class="eyebrow">WARU SHARE LINK</p>
+      <h1>Waruのグループに参加する</h1>
+      <p>
+        このリンクはWaruアプリで開くと、グループへの参加画面に進みます。
+        アプリをインストールしたあと、もう一度このリンクを開いてください。
+      </p>
+      <a class="button button-dark" id="open-app" href="#">Waruで開く</a>
+      <p class="muted">アプリが開かない場合は、リンクをコピーしてWaruの「グループに参加」から貼り付けてください。</p>
+    </main>
+    <script>
+      const segments = location.pathname.split('/').filter(Boolean);
+      const token = segments[0] === 'g' ? segments[1] : undefined;
+      const openApp = document.querySelector('#open-app');
+      if (token && token !== 'index.html') {
+        openApp.href = `waru://g/${encodeURIComponent(token)}`;
+      } else {
+        openApp.remove();
+      }
+    </script>
+  </body>
+</html>
